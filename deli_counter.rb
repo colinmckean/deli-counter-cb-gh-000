@@ -16,7 +16,7 @@ def take_a_number(thing1, thing2)
 end
 
 def now_serving(otherthing)
-  if otherthing > 0
+  if otherthing.size > 0
     puts "Currently serving #{otherthing.pop}"
   else
   puts "There is nobody waiting to be served!"
