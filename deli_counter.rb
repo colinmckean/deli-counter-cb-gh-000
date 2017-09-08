@@ -11,6 +11,7 @@ def line(thing)
 end
 
 def take_a_number(thing1, thing2)
+  thing1.push(thing2)
   puts "Welcome, #{thing2}. You are number 1 in line."
 end
 
