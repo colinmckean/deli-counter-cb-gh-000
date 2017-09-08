@@ -12,7 +12,7 @@ end
 
 def take_a_number(thing1, thing2)
   thing1.push(thing2)
-  puts "Welcome, #{thing2}. You are number 1 in line."
+  puts "Welcome, #{thing2}. You are number #{thing1.indexOf(thing2)} in line."
 end
 
 def now_serving(otherthing)
