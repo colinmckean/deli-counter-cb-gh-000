@@ -15,9 +15,9 @@ def take_a_number(deli, name)
   puts "Welcome, #{name}. You are number #{deli.index(name)+1} in line."
 end
 
-def now_serving(otherthing)
-  if otherthing.size > 0
-    puts "Currently serving #{otherthing.shift}."
+def now_serving(queue)
+  if queue.size > 0
+    puts "Currently serving #{queue.shift}."
   else
   puts "There is nobody waiting to be served!"
 end
