@@ -1,11 +1,11 @@
 # Write your code here.
 
-def line(thing)
-  if thing.size <= 0
+def line(queue)
+  if queue.size <= 0
     puts "The line is currently empty."
   else
     words = "The line is currently: "
-    thing.each_with_index {|e,i| words << "#{i+1}. #{e} "}
+    queue.each_with_index {|name,position| words << "#{position+1}. #{name} "}
     puts words.strip
   end
 end
