@@ -12,7 +12,7 @@ end
 
 def take_a_number(thing1, thing2)
   line(thing1)
-  puts "Welcome, #{thing2}. You are number 1 in line.")
+  puts "Welcome, #{thing2}. You are number 1 in line."
 end
 
 def now_serving(otherthing)
