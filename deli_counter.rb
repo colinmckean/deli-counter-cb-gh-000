@@ -12,9 +12,6 @@ end
 
 def take_a_number(thing1, thing2)
   puts "Welcome, #{thing2}. You are number 1 in line."
-  line(thing1)
-
-
 end
 
 def now_serving(otherthing)
