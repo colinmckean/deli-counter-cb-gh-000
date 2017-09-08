@@ -1,11 +1,11 @@
 # Write your code here.
 
-def line
+def line(thing)
 end
 
-def take_a_number
+def take_a_number(thing1, thing2)
 end
 
-def now_serving
+def now_serving(otherthing)
 
 end
