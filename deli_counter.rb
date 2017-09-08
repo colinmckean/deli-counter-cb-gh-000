@@ -11,7 +11,8 @@ def line(thing)
 end
 
 def take_a_number(thing1, thing2)
-  thing1
+  line = []
+  line.push(thing1)
 end
 
 def now_serving(otherthing)
