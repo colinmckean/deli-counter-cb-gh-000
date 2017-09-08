@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(thing)
-  if thing <= 0
+  if thing.size <= 0
     puts "The line is currently empty."
   end
 end
