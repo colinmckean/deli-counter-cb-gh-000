@@ -16,5 +16,5 @@ def take_a_number(thing1, thing2)
 end
 
 def now_serving(otherthing)
-
+  puts "There is nobody waiting to be served!"
 end
