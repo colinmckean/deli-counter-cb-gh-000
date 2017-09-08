@@ -4,9 +4,9 @@ def line(queue)
   if queue.size <= 0
     puts "The line is currently empty."
   else
-    words = "The line is currently: "
+    response = "The line is currently: "
     queue.each_with_index {|name,position| words << "#{position+1}. #{name} "}
-    puts words.strip
+    puts response.strip
   end
 end
 
