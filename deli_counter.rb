@@ -4,7 +4,7 @@ def line(thing)
   if thing.size <= 0
     puts "The line is currently empty."
   else
-    puts thing
+    puts thing.each_with_index {|e,i| puts e}
   end
 end
 
