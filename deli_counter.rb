@@ -3,6 +3,8 @@
 def line(thing)
   if thing.size <= 0
     puts "The line is currently empty."
+  else
+    puts "The line is currently: " + thing.array_with_index {|e,i| "#{i+1}. #{e}"}
   end
 end
 
