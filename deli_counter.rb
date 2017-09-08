@@ -6,7 +6,7 @@ def line(thing)
   else
     words = "The line is currently: "
     thing.each_with_index {|e,i| words << "#{i+1}. #{e} "}
-    puts words.chomp
+    puts words.strip
   end
 end
 
