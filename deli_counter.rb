@@ -11,7 +11,7 @@ def line(thing)
 end
 
 def take_a_number(deli, name)
-  thing1.push(name)
+  deli.push(name)
   puts "Welcome, #{name}. You are number #{deli.index(name)+1} in line."
 end
 
