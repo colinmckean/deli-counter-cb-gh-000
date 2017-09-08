@@ -17,7 +17,7 @@ end
 
 def now_serving(otherthing)
   if otherthing.size > 0
-    puts "Currently serving #{otherthing.shift}"
+    puts "Currently serving #{otherthing.shift}."
   else
   puts "There is nobody waiting to be served!"
 end
