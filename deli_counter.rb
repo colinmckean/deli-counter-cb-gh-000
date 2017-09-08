@@ -4,7 +4,8 @@ def line(thing)
   if thing.size <= 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: " + thing.each_with_index {|e,i| "#{i+1}. #{e}"}
+    puts "The line is currently: "
+    thing.each_with_index {|e,i| puts "#{i+1}. #{e}"}
   end
 end
 
