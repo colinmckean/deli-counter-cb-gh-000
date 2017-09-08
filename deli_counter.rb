@@ -5,7 +5,7 @@ def line(thing)
     puts "The line is currently empty."
   else
     words = "The line is currently: "
-    thing.each_with_index {|e,i| words << "#{i+1}"}
+    thing.each_with_index {|e,i| words << "#{i+1}. ~#{e}"}
     puts words
   end
 end
